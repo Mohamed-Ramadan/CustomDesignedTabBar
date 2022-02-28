@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		FAB1EAD227CD499700A71AA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB1EAD127CD499700A71AA3 /* AppDelegate.swift */; };
 		FAB1EAD427CD499700A71AA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB1EAD327CD499700A71AA3 /* SceneDelegate.swift */; };
-		FAB1EAD627CD499700A71AA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB1EAD527CD499700A71AA3 /* ViewController.swift */; };
 		FAB1EAD927CD499700A71AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB1EAD727CD499700A71AA3 /* Main.storyboard */; };
 		FAB1EADB27CD499700A71AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB1EADA27CD499700A71AA3 /* Assets.xcassets */; };
 		FAB1EADE27CD499700A71AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB1EADC27CD499700A71AA3 /* LaunchScreen.storyboard */; };
+		FAB1EAE627CD49F300A71AA3 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB1EAE527CD49F300A71AA3 /* CustomTabBarViewController.swift */; };
+		FAB1EAE827CD4DAB00A71AA3 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB1EAE727CD4DAB00A71AA3 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAB1EACE27CD499700A71AA3 /* CustomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB1EAD127CD499700A71AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAB1EAD327CD499700A71AA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAB1EAD527CD499700A71AA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAB1EAD827CD499700A71AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAB1EADA27CD499700A71AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB1EADD27CD499700A71AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAB1EADF27CD499700A71AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB1EAE527CD49F300A71AA3 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		FAB1EAE727CD4DAB00A71AA3 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		FAB1EAD027CD499700A71AA3 /* CustomTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				FAB1EAE527CD49F300A71AA3 /* CustomTabBarViewController.swift */,
+				FAB1EAE727CD4DAB00A71AA3 /* CustomTabBar.swift */,
 				FAB1EAD127CD499700A71AA3 /* AppDelegate.swift */,
 				FAB1EAD327CD499700A71AA3 /* SceneDelegate.swift */,
-				FAB1EAD527CD499700A71AA3 /* ViewController.swift */,
 				FAB1EAD727CD499700A71AA3 /* Main.storyboard */,
 				FAB1EADA27CD499700A71AA3 /* Assets.xcassets */,
 				FAB1EADC27CD499700A71AA3 /* LaunchScreen.storyboard */,
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB1EAD627CD499700A71AA3 /* ViewController.swift in Sources */,
+				FAB1EAE827CD4DAB00A71AA3 /* CustomTabBar.swift in Sources */,
 				FAB1EAD227CD499700A71AA3 /* AppDelegate.swift in Sources */,
+				FAB1EAE627CD49F300A71AA3 /* CustomTabBarViewController.swift in Sources */,
 				FAB1EAD427CD499700A71AA3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
