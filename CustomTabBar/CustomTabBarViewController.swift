@@ -89,8 +89,8 @@ class CustomTabBarViewController: UITabBarController {
         NSLayoutConstraint.activate([
             centerButton.centerXAnchor.constraint(equalTo: self.tabBar.centerXAnchor),
             centerButton.centerYAnchor.constraint(equalTo: self.tabBar.topAnchor),
-            centerButton.widthAnchor.constraint(equalTo: self.tabBar.heightAnchor, constant: 20),
-            centerButton.heightAnchor.constraint(equalTo: self.tabBar.heightAnchor, constant: 20)
+            centerButton.widthAnchor.constraint(equalTo: self.tabBar.heightAnchor, constant: 20 - UIViewController.safeAreaBottomHeight()),
+            centerButton.heightAnchor.constraint(equalTo: self.tabBar.heightAnchor, constant: 20 - UIViewController.safeAreaBottomHeight())
         ])
         
         centerButton.setTitle("+", for: .normal)
