@@ -48,20 +48,13 @@ class CustomTabBar: UITabBar {
         
         path.addLine(to: CGPoint(x: (centerWidth - height) - 10, y: 0))
         
-        // left curve to center button
-//        path.addCurve(to: CGPoint(x: centerWidth, y: height),
-//                      controlPoint1: CGPoint(x: centerWidth, y: 0),
-//                      controlPoint2: CGPoint(x: centerWidth - height/2, y: height))
-//
         path.addCurve(to: CGPoint(x: centerWidth, y: height-10),
                       controlPoint1: CGPoint(x: (centerWidth - 20), y: 0),
-                      controlPoint2: CGPoint(x: ((centerWidth - height) - 0), y: height))
+                      controlPoint2: CGPoint(x: ((centerWidth - height) - 0), y: height-15))
         
-        path.addCurve(to: CGPoint(x: centerWidth + height*2, y: 0),
-                      controlPoint1: CGPoint(x: (centerWidth + height - 5), y: height),
-                      controlPoint2: CGPoint(x: centerWidth + 10, y: 0))
-        
-//        path.addArc(withCenter: CGPoint(x: centerWidth, y: 0), radius: (height - 10) - UIViewController.safeAreaBottomHeight() , startAngle: CGFloat(Double.pi), endAngle: 0, clockwise: false)
+        path.addCurve(to: CGPoint(x: centerWidth + height + 10, y: 0),
+                      controlPoint1: CGPoint(x: (centerWidth + height - 0), y: height-15),
+                      controlPoint2: CGPoint(x: centerWidth + 20, y: 0))
         
         path.addLine(to: CGPoint(x: self.frame.width-25, y: 0))
         path.addCurve(to: CGPoint(x: self.frame.width, y: 25),
